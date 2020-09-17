@@ -1,0 +1,21 @@
+name: 'LeanCloud Self Wake'
+
+ # 触发条件
+on:
+  push:
+  watch:
+    types: [started]
+  schedule:
+    - cron: '*/39 23-23 * * ?'    # 北京时间 7:00 - 7:59，每 39 分钟触发一次
+    - cron: '*/39 0-15 * * ?'     # 北京时间 8:00 - 23:59，每 39 分钟触发一次
+
+jobs:
+  curl-my-site:
+     runs-on: ubuntu-latest
+     steps:
+       - name: 'xecute command'
+         env:
+           MY_SITE: ${{ secrets.SITE }}
+         # 向站点发送 GET 请求
+         run: |                                   
+           curl $MY_SITE
