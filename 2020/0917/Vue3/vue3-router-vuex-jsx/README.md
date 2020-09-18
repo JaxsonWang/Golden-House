@@ -1,4 +1,4 @@
-# vue-projects-test
+# vue3-router-vuex-jsx
 
 ## Project setup
 ```
