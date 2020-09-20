@@ -4,6 +4,6 @@
 
 #### 2020
 
-[Vue3 + Vue Router + Vuex](./2020/0917/Vue3/vue3-router-vuex)
+[Vue3 + Vue Router + Vuex](./StudyNotes/Vue3/vue3-router-vuex)
 
-[Vue3 + Vue Router + Vuex + JSX](./2020/0917/Vue3/vue3-router-vuex-jsx)
+[Vue3 + Vue Router + Vuex + JSX](./StudyNotes/Vue3/vue3-router-vuex-jsx)
