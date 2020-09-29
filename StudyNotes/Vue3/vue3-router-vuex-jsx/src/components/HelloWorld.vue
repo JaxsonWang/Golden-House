@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h4>{{ msg }}</h4>
+    <span class="my-slot"><slot>输出内容</slot></span>
+    <div class="red"><slot name="red"></slot></div>
   </div>
 </template>
 

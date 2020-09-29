@@ -1,6 +1,9 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to Your Vue.js App">
+      <template v-slot>这是匿名 slot 输出</template>
+      <template v-slot:red>this is red slot</template>
+    </HelloWorld>
     <div class="set">
       <button @click="closeMenu">{{ menuStatus ? '打开菜单' : '关闭菜单' }}</button>
     </div>

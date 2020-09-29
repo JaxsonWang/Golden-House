@@ -14,8 +14,12 @@ const HelloVue = defineComponent({
     }
   },
   render() {
+    const { $slots } = this
     return <>
       <h3 onClick={this.emitClick}>{ this.msg }</h3>
+      <span className="my-slot">
+        { $slots.default && $slots.default() }
+      </span>
     </>
   }
 })
