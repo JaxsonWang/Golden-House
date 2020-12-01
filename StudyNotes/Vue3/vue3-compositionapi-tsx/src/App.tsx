@@ -3,12 +3,6 @@ import Title from './components/HelloWorld'
 
 export default defineComponent({
   name: 'App',
-  emits: {
-    titleClick: val => {
-      console.log(val)
-      return val
-    }
-  },
   setup () {
     const onTitleClick = (event: any) => {
       console.log(event)
