@@ -7,3 +7,4 @@
 - [Vue3 + Vue Router + Vuex](./StudyNotes/Vue3/vue3-router-vuex)
 - [Vue3 + Vue Router + Vuex + JSX](./StudyNotes/Vue3/vue3-router-vuex-jsx)
 - [Vue3 + Vue Router + Vuex + TSX](./StudyNotes/Vue3/vue3-router-vuex-tsx)
+- [Vue3 + Composition API + TSX](./StudyNotes/Vue3/vue3-compositionapi-tsx)
