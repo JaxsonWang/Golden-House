@@ -13,7 +13,7 @@ export default defineComponent({
   setup (props, context) {
     return () =>
       <>
-        <h1 class='title' onClick={(event: MouseEvent) => context.emit('title-click', event)}>
+        <h1 class="title" onClick={(event: MouseEvent) => context.emit('title-click', event)}>
           { props.title }
         </h1>
       </>

@@ -15,8 +15,8 @@ export default defineComponent({
     }
     return () =>
       <>
-        <div class='container'>
-          <Title title='这是一个例子' onTitleClick={onTitleClick} />
+        <div class="container">
+          <Title title="这是一个例子" onTitleClick={onTitleClick} />
           Hello World
         </div>
       </>
