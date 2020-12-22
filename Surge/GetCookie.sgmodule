@@ -1,5 +1,5 @@
-#!name=获取京东Cookie
-#!desc=获取京东Cookie
+#!name=获取Cookie
+#!desc=获取Cookie
 
 [MITM]
 hostname = %APPEND% music.163.com, *.video.qq.com, api.m.jd.com, act.10010.com, m.client.10010.com
