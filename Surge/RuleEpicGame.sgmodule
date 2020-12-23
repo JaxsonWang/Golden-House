@@ -1,0 +1,8 @@
+#!name=Suege Epic Game Rule
+#!desc=代理 Epic 游戏平台
+
+[Rule]
+DOMAIN-SUFFIX,epicgames.com,🚀 节点选择
+DOMAIN-SUFFIX,helpshift.com,🚀 节点选择
+DOMAIN-SUFFIX,paragon.com,🚀 节点选择
+DOMAIN-SUFFIX,unrealengine.com,🚀 节点选择
