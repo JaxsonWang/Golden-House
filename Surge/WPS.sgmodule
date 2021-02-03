@@ -1,0 +1,8 @@
+#!name=WPS 签到
+#!desc=WPS 签到
+
+[MITM]
+hostname = %APPEND% zt.wps.cn
+
+[Script]
+WPS签到 = type=cron,cronexp=0 8 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.js,script-update-interval=0

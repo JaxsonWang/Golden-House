@@ -1,0 +1,8 @@
+#!name=Asus Router Address
+#!desc=Fix Address URI
+
+[Host]
+router.asus.com = script:AsusRouter
+
+[Script]
+AsusRouter = type=dns,script-path=https://raw.githubusercontent.com/JaxsonWang/Golden-House/master/Surge/js/router.asus.js,script-update-interval=0
