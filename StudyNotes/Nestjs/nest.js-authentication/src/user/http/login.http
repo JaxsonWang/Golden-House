@@ -1,0 +1,5 @@
+### 用户登录
+POST http://localhost:3000/user/login
+Content-Type: application/x-www-form-urlencoded
+
+username=user01&password=123456
