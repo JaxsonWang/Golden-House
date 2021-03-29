@@ -1,0 +1,6 @@
+#!name=Apple OCSP
+#!desc=Apple 证书联网校验
+
+[Rule]
+DOMAIN-SUFFIX,ocsp.apple.com,PROXY
+DOMAIN-SUFFIX,ocsp.digicert.com,PROXY
