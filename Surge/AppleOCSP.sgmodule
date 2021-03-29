@@ -2,5 +2,5 @@
 #!desc=Apple 证书联网校验
 
 [Rule]
-DOMAIN-SUFFIX, ocsp.apple.com, Apple
-DOMAIN-SUFFIX, ocsp.digicert.com, Apple
+DOMAIN-SUFFIX, ocsp.apple.com, 🚀 节点选择
+DOMAIN-SUFFIX, ocsp.digicert.com, 🚀 节点选择
