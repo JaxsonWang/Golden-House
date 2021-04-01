@@ -1,5 +1,5 @@
-#!name=Apple OCSP
-#!desc=Apple 证书联网校验
+#!name=JD Script Proxy
+#!desc=JD脚本走代理
 
 [Rule]
 DOMAIN-SUFFIX, jdsharedresourcescdn.azureedge.net, 🚀 节点选择
