@@ -1,0 +1,5 @@
+#!name=阿里云盘
+#!desc=阿里云盘
+
+[MITM]
+hostname = %APPEND% *.aliyundrive.com
