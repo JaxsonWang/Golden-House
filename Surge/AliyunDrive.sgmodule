@@ -1,5 +1,5 @@
-#!name=阿里云盘
-#!desc=阿里云盘
+#!name=阿里云盘 MITM
+#!desc=阿里云盘 MITM
 
 [MITM]
-hostname = %APPEND% *.aliyundrive.com
+hostname = %APPEND% *.aliyundrive.com, *.umengcloud.com, *.umengcloud.com, *.umengcloud.com
